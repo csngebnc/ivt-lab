@@ -117,4 +117,8 @@ public class GT4500 implements SpaceShip {
 
 }
 
+<<<<<<< HEAD
 // conflict line A
+=======
+// conflict line 2
+>>>>>>> branch-B
