@@ -116,3 +116,5 @@ public class GT4500 implements SpaceShip {
   }
 
 }
+
+// conflict line A
