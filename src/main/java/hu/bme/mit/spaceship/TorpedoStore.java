@@ -31,7 +31,7 @@ public class TorpedoStore {
 
   public boolean fire(int numberOfTorpedos){
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
-      return false; // Instead of throwing an exception, just return false
+      throw new IllegalArgumentException("numberOfTorpedos");
     }
 
     boolean success = false;
